@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1 - Tipos de Números</title>
+</head>
+
+
+<body>
+    <h1>Executando a função calcSoma</h1>
+    <a href="index2.html">AQUI</a>
+</body>
+<script type="text/javascript">
+    /* Esta função ira fazer um calculo */
+    function calcSoma(z, y) {
+        resposta = z + y
+        return resposta;
+    }
+    console.log(calcSoma(9, 10))
+
+    /* subtração */
+    function calcSub(z, y) {
+        resposta = z - y
+        return resposta;
+    }
+    console.log(calcSub(9, 10))
+
+    /* Multiplicação */
+    function calcMult(z, y) {
+        resposta = z * y
+        return resposta;
+    }
+    console.log(calcMult(9, 10))
+
+    /* Divição */
+    function calcDiv(z, y) {
+        resposta = z / y
+        return resposta;
+    }
+    console.log(calcDiv(9, 10))
+
+
+    function calcMedia(a, b, c, d, e, f, g) {
+        resposta = (a + b + c + d + e + f) / 6
+        nome = (g)
+        if (resposta>= 6) {
+            return  alert(" Você é pica muleke " + nome + " Você foi aprovado sua nota é : " + resposta)
+        }else{
+            return alert(" Que pena "  + nome +  " Você foi reprovado")
+        }
+    };
+
+    g = prompt("Digite Seu Nome")
+    a = parseInt(prompt("Primeira nota"))
+    b = parseInt(prompt("Segunda nota "))
+    c = parseInt(prompt("Terceira nota "))
+    d = parseInt(prompt("Quarta nota "))
+    e = parseInt(prompt("Quinta nota "))
+    f = parseInt(prompt("Sexta nota "))
+    calcMedia(a, b, c, d, e, f, g)
+
+    function senha(a,b){
+
+    }
+
+    a = parseInt(prompt("Digite sua senha de 8 digitos"))
+</script>
+
+</html>
